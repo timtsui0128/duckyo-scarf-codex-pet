@@ -1,0 +1,51 @@
+{
+  "id": "duckyo-scarf",
+  "name": "Duckyo Scarf Codex pet",
+  "description": "Scarf duck Codex pet package with clean eyes and revised jump motion.",
+  "suggestedRepositoryName": "duckyo-scarf-codex-pet",
+  "pet": "pet/pet.json",
+  "spritesheet": "pet/spritesheet.webp",
+  "spriteVersionNumber": 2,
+  "spritesheetSha256": "80452a1d1fe25b54824380f8a2ddc193fe6cac40455366d5ba3e69f4ba816614",
+  "atlas": {
+    "width": 1536,
+    "height": 2288,
+    "columns": 8,
+    "rows": 11,
+    "cellWidth": 192,
+    "cellHeight": 208,
+    "requiredFrames": 73,
+    "unusedCells": 15
+  },
+  "standardAnimationFrames": [
+    6,
+    8,
+    8,
+    4,
+    5,
+    8,
+    6,
+    6,
+    6
+  ],
+  "lookDirectionFrames": 16,
+  "installation": {
+    "script": "scripts/install.sh",
+    "directory": "${CODEX_HOME:-~/.codex}/pets/duckyo-scarf"
+  },
+  "previews": {
+    "allStatesGif": "assets/all-states.gif",
+    "allStatesMp4": "assets/all-states.mp4",
+    "idleJumpIdle": "assets/idle-jump-idle.gif",
+    "lookLoop": "assets/look-loop.gif",
+    "contactSheet": "assets/contact-sheet.png",
+    "lookDirections": "assets/look-directions.png",
+    "interactive": "assets/preview.html"
+  },
+  "qa": {
+    "validation": "qa/validation.json",
+    "quality": "qa/quality.json",
+    "packageCheck": "qa/package-check.json"
+  },
+  "checksums": "SHA256SUMS"
+}

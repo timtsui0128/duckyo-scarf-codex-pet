@@ -1,0 +1,66 @@
+{
+  "ok": true,
+  "atlas": "pet/spritesheet.webp",
+  "encoded_bytes": 1849464,
+  "sha256": "80452a1d1fe25b54824380f8a2ddc193fe6cac40455366d5ba3e69f4ba816614",
+  "jump": {
+    "idle_baseline": 201,
+    "jump_baselines": [
+      202,
+      172,
+      162,
+      172,
+      202
+    ],
+    "airborne_lift_pixels": 40,
+    "landing_delta_pixels": 1
+  },
+  "look_registration": {
+    "neutral_center_x": 96.0,
+    "look_centers_x": [
+      95.0,
+      95.0,
+      95.0,
+      95.0,
+      95.0,
+      95.0,
+      95.0,
+      95.0,
+      96.0,
+      96.0,
+      95.5,
+      95.0,
+      95.5,
+      94.5,
+      95.0,
+      95.0
+    ],
+    "look_widths": [
+      120,
+      120,
+      120,
+      120,
+      120,
+      120,
+      120,
+      120,
+      124,
+      124,
+      125,
+      126,
+      127,
+      127,
+      126,
+      126
+    ],
+    "maximum_center_drift_pixels": 1.5,
+    "maximum_width_ratio": 1.0583333333333333
+  },
+  "errors": [],
+  "warnings": [
+    "look direction 067.5 accepted with a reviewed warning",
+    "157.5->180 diff is a local outlier (843 pixels vs neighbor average 339)",
+    "270->292.5 diff is a local outlier (722 pixels vs neighbor average 485)",
+    "337.5->000 diff is a local outlier (1038 pixels vs neighbor average 448)"
+  ]
+}
